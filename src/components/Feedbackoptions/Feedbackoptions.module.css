@@ -1,0 +1,21 @@
+.containerFeedback {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.buttonFeedback {
+  width: 60px;
+  height: 28px;
+
+  border-width: inherit;
+  border-radius: 5px;
+  outline: none;
+  color: black;
+  cursor: pointer;
+}
+.buttonFeedback:focus {
+  background-color: #c72323;
+  color: white;
+}
